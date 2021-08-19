@@ -879,6 +879,11 @@ img {
     margin-right: 10px;
 }
 
+.footer__social-icon:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
 .footer__download {
     display: flex;
     align-items: center;
@@ -892,6 +897,11 @@ img {
 
 .footer__download-icon {
     margin-left: 15px;
+}
+
+.footer__download-icon:hover {
+    cursor: pointer;
+    opacity: .6;
 }
 
 .footer__inner-down {
@@ -913,4 +923,9 @@ img {
     font-size: 14px;
     font-weight: 300;
     opacity: .6;
+}
+
+.footer__subtitle:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
